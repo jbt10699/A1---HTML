@@ -57,6 +57,12 @@ button{
     border: 2px solid black;
 }
 
+.check{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
 :focus {
     border: 1px solid #72b5ea;
     box-shadow: lightblue 0px 0px 10px;
