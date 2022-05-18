@@ -39,7 +39,6 @@ button{
     grid-template-columns: repeat(2, 1fr);
 }
 
-
 .oneEntry{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -57,13 +56,26 @@ button{
     border: 2px solid black;
 }
 
-.check{
+.checkbox {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin-left:20px;
+    
+}
+#terms{
+    margin-top: 20px;    
 }
 
+#demoBtn{
+    letter-spacing: 0.02em;
+    background-color: #428bca;
+    font-size: 10px;
+    padding: 3px 6px;
+    cursor:default;
+    
+}
 
-:focus {
+:focus{
     border: 1px solid #72b5ea;
     box-shadow: lightblue 0px 0px 10px;
     outline: none;
