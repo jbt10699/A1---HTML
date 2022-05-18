@@ -39,10 +39,6 @@ button{
     grid-template-columns: repeat(2, 1fr);
 }
 
-.threeEntries{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
 .oneEntry{
     display: grid;
